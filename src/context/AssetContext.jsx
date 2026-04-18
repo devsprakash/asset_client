@@ -14,7 +14,7 @@ export const useAsset = () => {
 };
 
 // API base URL
-const API_BASE_URL = "http://localhost:9001/api/v1";
+const API_BASE_URL = "https://asset-management-2-y8uw.onrender.com/api/v1";
 
 export const AssetProvider = ({ children }) => {
   const { isAdmin, isTeam } = useAuth();
