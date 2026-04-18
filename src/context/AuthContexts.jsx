@@ -13,7 +13,7 @@ export const useAuth = () => {
 };
 
 // API base URL - Make sure this is correct
-const API_BASE_URL = "https://asset-management-2-y8uw.onrender.com/api/v1/user";
+const API_BASE_URL = "https://asset-management-3-r0wr.onrender.com/api/v1/user";
 
 // Create axios instance with interceptors
 const createApiInstance = (token) => {

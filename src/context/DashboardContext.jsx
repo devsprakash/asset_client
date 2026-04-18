@@ -13,7 +13,7 @@ export const useDashboard = () => {
   return context;
 };
 
-const API_BASE_URL = "https://asset-management-2-y8uw.onrender.com/api/v1";
+const API_BASE_URL = "https://asset-management-3-r0wr.onrender.com/api/v1";
 
 const getApiClient = (token) => {
   return axios.create({
